@@ -1,4 +1,4 @@
-# count-dicty-cells
+# count-dicty-cells.R
 
 R script for processing flow cytometry data of *Dictyostelium discoideum* cells. 
 
