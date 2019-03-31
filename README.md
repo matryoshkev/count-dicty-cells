@@ -25,3 +25,8 @@ The script was last tested with:
 * flowViz version 1.34.0
 * flowStats version 3.28.1
 
+## Citing
+
+Original publication: smith j, Strassmann JE, and Queller DC (2016) Fine-scale spatial ecology drives kin selection relatedness among cooperating amoebae. Evolution 70: 848-859. https://doi.org/10.1111/evo.12895
+
+Code and data archive for original publication: https://doi.org/10.5061/dryad.983r5
