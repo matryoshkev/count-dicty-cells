@@ -1,6 +1,6 @@
 # count-dicty-cells
 
-R script for processing flow cytometry data of *Dictyostelium discoideum* cells
+R script for processing flow cytometry data of *Dictyostelium discoideum* cells. 
 
 ## Usage
 
@@ -26,7 +26,7 @@ myResults <- "flow-cytometry-results.txt"
 
 ## Dependencies
 
-The script was last tested with: 
+Script last tested with: 
 * R version 3.2.3
 * flowCore version 1.36.5
 * flowViz version 1.34.0
@@ -34,8 +34,6 @@ The script was last tested with:
 
 ## Citing
 
-Please cite the original publication: 
-
 smith j, Strassmann JE, and Queller DC (2016) Fine-scale spatial ecology drives kin selection relatedness among cooperating amoebae. *Evolution* 70: 848-859. https://doi.org/10.1111/evo.12895
 
-The code and data archive for the original publication is available at https://doi.org/10.5061/dryad.983r5
+Code and data archive for original publication also available at https://doi.org/10.5061/dryad.983r5
