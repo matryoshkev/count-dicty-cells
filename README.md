@@ -4,7 +4,7 @@ R script for processing flow cytometry data of *Dictyostelium discoideum* cells
 
 ## Usage
 
-1. Export your flow cytometry data as .fcs (flow cytometry standard) files. 
+1. Export your flow cytometry data as .fcs (flow cytometry standard) files. In the accuri CFlow Plus software, you can choose menu item "File/Export ALL files as FCS..."
 2. Make sure you have the Bioconductor flow cytometry packages.  If you don't have them, run these commands: 
 ```
 source("http://bioconductor.org/biocLite.R")
