@@ -16,3 +16,12 @@ biocLite("flowStats")
 4. Name results file (optional).  This will be a tab-delimited text file that can be directly read by R or copy/pasted into Excel.  
 5. Execute the script. Type cmd-E in Mac OS X or choose menu item "Edit/Source Document". Make sure your working directory is where your fcs files are.  The script will simultaneously analyze all .fcs files in the working directory. You may want to separately analyze files in batches based on experiment, replicate, strain, et cetera. 
 6. Look at the diagnostic plots. They'll show you what the script believes is *Dicty*, how it's choosing between fluorescent and nonfluorescent cells, whether there is debris inflating nonfluorescent counts, and compare the fluorescence of different samples.  
+
+## Dependencies
+
+The script was last tested with: 
+* R version 3.2.3
+* flowCore version 1.36.5
+* flowViz version 1.34.0
+* flowStats version 3.28.1
+
