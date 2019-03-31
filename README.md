@@ -18,6 +18,9 @@ biocLite("flowStats")
 myFluorescenceChannel <- "FL3-H"   # Red
 ```
 4. Name results file (optional).  This will be a tab-delimited text file that can be directly read by R or copy/pasted into Excel.  
+```
+myResults <- "flow-cytometry-results.txt"
+```
 5. Execute the script. Type cmd-E in Mac OS X or choose menu item "Edit/Source Document". Make sure your working directory is where your fcs files are.  The script will simultaneously analyze all .fcs files in the working directory. You may want to separately analyze files in batches based on experiment, replicate, strain, et cetera. 
 6. Look at the diagnostic plots. They'll show you what the script believes is *Dicty*, how it's choosing between fluorescent and nonfluorescent cells, whether there is debris inflating nonfluorescent counts, and compare the fluorescence of different samples.  
 
